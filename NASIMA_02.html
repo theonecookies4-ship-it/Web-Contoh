@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sekolah Nasima Semarang | Sekolah Merah Putih</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .bg-nasima { background-color: #E11D48; }
+        .text-nasima { color: #E11D48; }
+        .glass-nav { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(15px); }
+        .card-shadow { transition: all 0.3s ease; }
+        .card-shadow:hover { transform: translateY(-10px); box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1); }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <nav class="fixed w-full z-50 glass-nav border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-nasima rounded-lg flex items-center justify-center text-white font-extrabold text-xl">N</div>
+                <div>
+                    <h1 class="text-xl font-extrabold leading-none tracking-tight">NASIMA</h1>
+                    <p class="text-[10px] font-bold text-nasima tracking-[0.2em] uppercase">Semarang</p>
+                </div>
+            </div>
+            <div class="hidden lg:flex space-x-8 font-bold text-sm uppercase">
+                <a href="#beranda" class="hover:text-nasima transition">Beranda</a>
+                <a href="#jenjang" class="hover:text-nasima transition">Jenjang</a>
+                <a href="#fasilitas" class="hover:text-nasima transition">Fasilitas</a>
+                <a href="#mengapa" class="hover:text-nasima transition">Mengapa Kami</a>
+                <a href="#" class="bg-nasima text-white px-6 py-2 rounded-full hover:bg-rose-700 transition shadow-lg shadow-rose-200">PPDB 2026</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="beranda" class="relative min-h-screen flex items-center pt-20 bg-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
+            <div class="z-10 text-center lg:text-left">
+                <div class="inline-flex items-center gap-2 px-4 py-2 bg-rose-50 rounded-full mb-6">
+                    <span class="w-2 h-2 bg-nasima rounded-full animate-ping"></span>
+                    <span class="text-nasima font-bold text-sm uppercase tracking-widest">Sekolah Merah Putih</span>
+                </div>
+                <h2 class="text-5xl lg:text-7xl font-extrabold leading-[1.1] mb-6">
+                    Mencetak Generasi <span class="text-nasima">Nasionalis</span> & Religius
+                </h2>
+                <p class="text-lg text-slate-600 mb-10 max-w-xl mx-auto lg:mx-0 leading-relaxed">
+                    Nasima membentuk generasi yang <strong>Berakhlaqul Karimah</strong> sekaligus cinta tanah air. Menjadi muslim yang baik berarti menjadi warga negara Indonesia yang hebat.
+                </p>
+                <div class="flex flex-wrap justify-center lg:justify-start gap-4">
+                    <a href="#jenjang" class="bg-slate-900 text-white px-10 py-4 rounded-2xl font-bold hover:bg-slate-800 transition shadow-xl">Lihat Jenjang</a>
+                    <a href="#mengapa" class="bg-white border-2 border-slate-200 px-10 py-4 rounded-2xl font-bold hover:bg-slate-50 transition">Pelajari Filosofi</a>
+                </div>
+            </div>
+            <div class="relative group">
+                <div class="absolute -inset-4 bg-nasima/10 rounded-[2rem] blur-2xl group-hover:bg-nasima/20 transition duration-500"></div>
+                <div class="relative rounded-[2rem] overflow-hidden border-[12px] border-white shadow-2xl">
+                    <img src="sma.jpg" alt="Gedung Nasima" class="w-full object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="jenjang" class="py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+                <div class="max-w-2xl">
+                    <h2 class="text-4xl font-extrabold mb-4">Layanan Pendidikan Terintegrasi</h2>
+                    <p class="text-slate-500 text-lg">Dari usia dini hingga menengah atas, kurikulum kami dirancang berkesinambungan untuk hasil maksimal.</p>
+                </div>
+                <div class="text-nasima font-bold flex items-center gap-2">
+                    Geser Untuk Melihat <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white rounded-[2rem] overflow-hidden card-shadow border border-slate-100">
+                    <div class="h-52 bg-slate-200 overflow-hidden">
+                        <img src="tk.jpg" alt="KB-TK Nasima" class="w-full h-full object-cover transition duration-500 hover:scale-110">
+                    </div>
+                    <div class="p-8">
+                        <span class="text-nasima font-bold text-xs uppercase tracking-tighter">Usia Dini</span>
+                        <h3 class="text-2xl font-bold mt-2 mb-4">KB-TK Nasima</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">Fokus pada pembentukan karakter dasar dan eksplorasi minat anak melalui metode bermain yang edukatif.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-[2rem] overflow-hidden card-shadow border border-slate-100">
+                    <div class="h-52 bg-slate-200 overflow-hidden">
+                        <img src="sd.jpg" alt="SD Nasima" class="w-full h-full object-cover transition duration-500 hover:scale-110">
+                    </div>
+                    <div class="p-8">
+                        <span class="text-blue-600 font-bold text-xs uppercase tracking-tighter">Pendidikan Dasar</span>
+                        <h3 class="text-2xl font-bold mt-2 mb-4">SD Nasima</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">Menekankan pada pembiasaan ibadah harian dan literasi dasar untuk membangun fondasi akademik.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-[2rem] overflow-hidden card-shadow border border-slate-100">
+                    <div class="h-52 bg-slate-200 overflow-hidden">
+                        <img src="smp.jpg" alt="SMP Nasima" class="w-full h-full object-cover transition duration-500 hover:scale-110">
+                    </div>
+                    <div class="p-8">
+                        <span class="text-orange-500 font-bold text-xs uppercase tracking-tighter">Pendidikan Menengah</span>
+                        <h3 class="text-2xl font-bold mt-2 mb-4">SMP Nasima</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">Mulai memperkenalkan penguatan sains, teknologi (STEM), serta pembentukan jiwa kepemimpinan.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-[2rem] overflow-hidden card-shadow border border-slate-100">
+                    <div class="h-52 bg-slate-200 overflow-hidden">
+                        <img src="sma.jpg" alt="SMA Nasima" class="w-full h-full object-cover transition duration-500 hover:scale-110">
+                    </div>
+                    <div class="p-8">
+                        <span class="text-purple-600 font-bold text-xs uppercase tracking-tighter">Pendidikan Lanjut</span>
+                        <h3 class="text-2xl font-bold mt-2 mb-4">SMA Nasima</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">Mempersiapkan siswa menuju perguruan tinggi dengan pembekalan soft skills dan wawasan global.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="fasilitas" class="py-24 bg-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-20 items-center">
+                <div class="relative">
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="space-y-4 pt-12">
+                            <div class="bg-rose-100 rounded-3xl p-6 h-48 flex flex-col justify-end">
+                                <h4 class="font-bold text-nasima">Bilingual</h4>
+                                <p class="text-xs text-rose-800">English Environment</p>
+                            </div>
+                            <div class="bg-slate-900 rounded-3xl p-6 h-64 flex flex-col justify-end text-white">
+                                <h4 class="font-bold">Modern Lab</h4>
+                                <p class="text-xs text-slate-400">Riset & Teknologi</p>
+                            </div>
+                        </div>
+                        <div class="space-y-4">
+                            <div class="bg-blue-600 rounded-3xl p-6 h-64 flex flex-col justify-end text-white">
+                                <h4 class="font-bold">Robotik</h4>
+                                <p class="text-xs text-blue-100">Ekstrakurikuler Unggulan</p>
+                            </div>
+                            <div class="bg-amber-100 rounded-3xl p-6 h-48 flex flex-col justify-end">
+                                <h4 class="font-bold text-amber-800">Religius</h4>
+                                <p class="text-xs text-amber-700">Islami & Moderat</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="text-4xl font-extrabold mb-8">Fasilitas & Keunggulan Kami</h2>
+                    <ul class="space-y-8">
+                        <li class="flex gap-6">
+                            <div class="w-14 h-14 bg-slate-100 rounded-2xl flex items-center justify-center shrink-0">✨</div>
+                            <div>
+                                <h4 class="font-extrabold text-xl mb-1">Islami yang Moderat</h4>
+                                <p class="text-slate-500">Mengajarkan nilai-nilai Islam yang ramah, inklusif, dan sangat menjunjung tinggi toleransi.</p>
+                            </div>
+                        </li>
+                        <li class="flex gap-6">
+                            <div class="w-14 h-14 bg-slate-100 rounded-2xl flex items-center justify-center shrink-0">🌍</div>
+                            <div>
+                                <h4 class="font-extrabold text-xl mb-1">Program Bilingual</h4>
+                                <p class="text-slate-500">Penggunaan bahasa Inggris dalam beberapa aspek pembelajaran untuk daya saing internasional.</p>
+                            </div>
+                        </li>
+                        <li class="flex gap-6">
+                            <div class="w-14 h-14 bg-slate-100 rounded-2xl flex items-center justify-center shrink-0">📍</div>
+                            <div>
+                                <h4 class="font-extrabold text-xl mb-1">Lokasi Strategis di Semarang</h4>
+                                <p class="text-slate-500">Terletak di kawasan pusat kota seperti Jalan Puspanjolo dan Jalan Tri Lomba Juang yang mudah diakses.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="mengapa" class="py-24 bg-nasima text-white">
+        <div class="max-w-5xl mx-auto px-6 text-center">
+            <h2 class="text-4xl font-extrabold mb-10">Kenapa Nasima Menjadi Pilihan Utama?</h2>
+            <p class="text-xl leading-relaxed mb-12 opacity-90">
+                Nasima sering menjadi pilihan utama bagi orang tua di Semarang yang menginginkan anak mereka mendapatkan pendidikan umum yang berkualitas tanpa meninggalkan akar nilai agama. Slogan <strong>"Sekolah Merah Putih"</strong> benar-benar tercermin dalam keseharian siswa, mulai dari tata cara berpakaian, upacara, hingga integrasi materi kebangsaan.
+            </p>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white/10 p-8 rounded-3xl backdrop-blur-sm border border-white/20">
+                    <h5 class="text-3xl font-bold mb-2 italic">100%</h5>
+                    <p class="text-sm uppercase font-bold tracking-widest">Nasionalis</p>
+                </div>
+                <div class="bg-white/10 p-8 rounded-3xl backdrop-blur-sm border border-white/20">
+                    <h5 class="text-3xl font-bold mb-2 italic">Modern</h5>
+                    <p class="text-sm uppercase font-bold tracking-widest">Fasilitas Digital</p>
+                </div>
+                <div class="bg-white/10 p-8 rounded-3xl backdrop-blur-sm border border-white/20">
+                    <h5 class="text-3xl font-bold mb-2 italic">Ramah</h5>
+                    <p class="text-sm uppercase font-bold tracking-widest">Lingkungan Islami</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 text-white py-20">
+        <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-3 gap-16">
+            <div>
+                <div class="flex items-center gap-3 mb-8">
+                    <div class="w-12 h-12 bg-nasima rounded-xl flex items-center justify-center text-white font-extrabold text-2xl">N</div>
+                    <h1 class="text-2xl font-extrabold tracking-tight">NASIMA</h1>
+                </div>
+                <p class="text-slate-400 leading-relaxed mb-8">
+                    Menjadi lembaga pendidikan unggul dalam membentuk insan berakhlaqul karimah dan nasionalis di kota Semarang.
+                </p>
+                <div class="flex gap-4">
+                    <div class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-nasima cursor-pointer transition">IG</div>
+                    <div class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-nasima cursor-pointer transition">FB</div>
+                    <div class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-nasima cursor-pointer transition">YT</div>
+                </div>
+            </div>
+            <div>
+                <h4 class="text-lg font-bold mb-8 uppercase tracking-widest">Alamat Kampus</h4>
+                <ul class="space-y-4 text-slate-400 text-sm">
+                    <li><strong>KB-TK/SD:</strong> Jl. Puspanjolo Selatan No. 53, Semarang</li>
+                    <li><strong>SMP:</strong> Jl. Tri Lomba Juang No. 1, Semarang</li>
+                    <li><strong>SMA:</strong> Jl. Yos Sudarso (Kawasan Arteri Utara), Semarang</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-lg font-bold mb-8 uppercase tracking-widest">Pendaftaran</h4>
+                <p class="text-slate-400 text-sm mb-6">Daftarkan putra-putri Anda sekarang untuk tahun ajaran baru 2026/2027.</p>
+                <a href="#" class="inline-block w-full text-center bg-nasima py-4 rounded-xl font-bold hover:bg-rose-700 transition shadow-lg">PPDB Online</a>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-6 mt-20 pt-10 border-t border-slate-800 text-center text-slate-500 text-xs">
+            &copy; 2026 Yayasan Pendidikan Nasima Semarang. Seluruh hak cipta dilindungi.
+        </div>
+    </footer>
+
+</body>
+</html>
